@@ -71,8 +71,6 @@ let scrabbleScore = function(word) {
     for (letter in newPointStructure) {
       if (letter === word[i]) {
         score += newPointStructure[letter];
-      } else {
-        console.log("Special characters or numbers not allowed");
       }
     }
   }
